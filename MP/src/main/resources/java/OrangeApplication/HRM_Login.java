@@ -16,6 +16,7 @@ public class HRM_Login {
  	@FindBy(xpath="//input[@id='btnLogin']")
 	private WebElement  loginButton;
 
+ 
  	
  	public HRM_Login(WebDriver driver)
 	{
@@ -36,7 +37,7 @@ public class HRM_Login {
 	{
 	   loginButton.click();
 	}
-    
+  
     public void loginToApplication(String name,String pass)
 	{
     	username.sendKeys(name);

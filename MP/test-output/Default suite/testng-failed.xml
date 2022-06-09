@@ -5,13 +5,11 @@
     <classes>
       <class name="HRMApplication.A_HRM_LoginPage1">
         <methods>
-          <include name="test1"/>
           <include name="beforeSuite"/>
           <include name="afterTest0"/>
           <include name="setBrowser"/>
           <include name="afterMethod"/>
           <include name="beforeclass"/>
-          <include name="test2"/>
           <include name="beforeMethod"/>
           <include name="test3"/>
           <include name="afterClass"/>

@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -30,27 +31,37 @@ public class Utility1 {
 	        FileHandler.copy(source, dest);
 	}
 	
-	public static String getData(int r,int c) throws EncryptedDocumentException, IOException
+	public static String getData(String filename,int r,int c) throws EncryptedDocumentException, IOException
 	{
-		String path="D:\\TestDataSheet1.xlsx";
-		 FileInputStream file=new FileInputStream(path);
+		
+		
+		      String path=filename;
+		       FileInputStream file=new FileInputStream(path);
 				
-		Workbook book=  WorkbookFactory.create(file);
-		Sheet  sheet=book.getSheet("Sheet1"); 
-	//	int lastRow=sheet.getLastRowNum();    
-		Row row=sheet.getRow(r);
-	//	int lastcell=row.getLastCellNum();  
-		String data;
-		Cell cell=row.getCell(c);
-		try {
-				data=cell.getStringCellValue();
+		       Workbook book=  WorkbookFactory.create(file);
+		       Sheet  sheet=book.getSheet("Sheet1"); 
+	        // int lastRow=sheet.getLastRowNum();    
+		       Row row=sheet.getRow(r);
+	      //	int lastcell=row.getLastCellNum();  
+		
+	         	Cell cell=row.getCell(c);
+	        	String data=cell.getStringCellValue();
+	/*	try {
+				
 		}
 		catch(Exception e)
 		{
-			data=String.valueOf(cell.getStringCellValue());
+			//data=String.valueOf(cell.getStringCellValue());
 		}
-		
+		*/
 		return (data);
 	}
+	
+	public static void switchTab(WebDriver driver)
+	{
+		ArrayList<String> addr= new ArrayList<String>(driver.getWindowHandles());	
+			driver.switchTo().window(addr.get(1)); 
+	}
+	
 
 }

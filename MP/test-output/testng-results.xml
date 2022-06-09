@@ -1,100 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-30T18:29:35 IST" name="Suite" finished-at="2022-05-30T18:29:59 IST" duration-ms="23643">
+  <suite started-at="2022-06-09T22:45:19 IST" name="Default suite" finished-at="2022-06-09T22:45:19 IST" duration-ms="294">
     <groups>
     </groups>
-    <test started-at="2022-05-30T18:29:35 IST" name="Test1" finished-at="2022-05-30T18:29:59 IST" duration-ms="23643">
+    <test started-at="2022-06-09T22:45:19 IST" name="Default test" finished-at="2022-06-09T22:45:19 IST" duration-ms="294">
       <class name="HRMApplication.A_HRM_LoginPage1">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:35 IST" name="beforeSuite" finished-at="2022-05-30T18:29:35 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="beforeSuite" finished-at="2022-06-09T22:45:19 IST" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:35 IST" name="setBrowser" finished-at="2022-05-30T18:29:39 IST" duration-ms="4323" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:39 IST" name="beforeclass" finished-at="2022-05-30T18:29:51 IST" duration-ms="11990" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:51 IST" name="beforeMethod" finished-at="2022-05-30T18:29:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:51 IST" name="test1" finished-at="2022-05-30T18:29:51 IST" duration-ms="23" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:51 IST" name="afterMethod" finished-at="2022-05-30T18:29:54 IST" duration-ms="2015" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test1 status=SUCCESS method=A_HRM_LoginPage1.test1()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:54 IST" name="beforeMethod" finished-at="2022-05-30T18:29:54 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:54 IST" name="test2" finished-at="2022-05-30T18:29:54 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:54 IST" name="afterMethod" finished-at="2022-05-30T18:29:56 IST" duration-ms="2007" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=A_HRM_LoginPage1.test2()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:56 IST" name="beforeMethod" finished-at="2022-05-30T18:29:56 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test3()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:56 IST" name="test3" finished-at="2022-05-30T18:29:56 IST" duration-ms="780" status="FAIL">
-          <exception class="java.io.IOException">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="setBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654794919320" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@378bd86d]]]>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1729524935\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.io.IOException: Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@378bd86d]
-at org.apache.poi.ss.usermodel.WorkbookFactory.wp(WorkbookFactory.java:334)
-at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:224)
-at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
-at Ut.Utility1.getData(Utility1.java:38)
-at HRMApplication.A_HRM_LoginPage1.test3(A_HRM_LoginPage1.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1729524935\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
@@ -110,30 +45,161 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.io.IOException -->
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="beforeclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654794919428" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654794919484" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="test3" finished-at="2022-06-09T22:45:19 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1729524935\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1729524935\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:56 IST" name="afterMethod" finished-at="2022-05-30T18:29:59 IST" duration-ms="2222" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test3 status=FAILURE method=A_HRM_LoginPage1.test3()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654794919518" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:59 IST" name="afterClass" finished-at="2022-05-30T18:29:59 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654794919527" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="test3" finished-at="2022-06-09T22:45:19 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1729524935\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1729524935\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654794919549" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654794919559" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="test3" finished-at="2022-06-09T22:45:19 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1729524935\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1729524935\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654794919585" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654794919595" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest0()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@3911c2a7]" started-at="2022-05-30T18:29:59 IST" name="afterTest0" finished-at="2022-05-30T18:29:59 IST" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="afterTest0()[pri:0, instance:HRMApplication.A_HRM_LoginPage1@142eef62]" started-at="2022-06-09T22:45:19 IST" name="afterTest0" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654794919606" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest0 -->
       </class> <!-- HRMApplication.A_HRM_LoginPage1 -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
